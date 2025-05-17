@@ -9,16 +9,19 @@
       rel="stylesheet"
     />
     <style>
+      /* Estilo geral para o corpo da página */
       body {
         margin: 0;
         font-family: "Roboto Slab", serif;
       }
+      /* Garantindo que todos os elementos usem a fonte Roboto Slab */
       * {
         font-family: "Roboto Slab", serif;
       }
     </style>
   </head>
   <body>
+    <!-- Container principal do painel de investimentos -->
     <div
       style="
         width: 392px;
@@ -28,6 +31,7 @@
         border-radius: 6px;
       "
     >
+      <!-- Círculo azul com ícone de dinheiro -->
       <div
         style="
           width: 62px;
@@ -35,10 +39,11 @@
           left: 9px;
           top: 9px;
           position: absolute;
-          background: #004a80;
+          background: #004a80; /* Azul institucional */
           border-radius: 32.5px;
         "
       >
+        <!-- Container do ícone de dinheiro -->
         <div
           style="
             width: 47px;
@@ -49,6 +54,7 @@
             overflow: hidden;
           "
         >
+          <!-- Div que contém a imagem do ícone de dinheiro -->
           <div
             style="
               width: 39.17px;
@@ -59,8 +65,10 @@
               outline: 2px var(--Cinza-Claro-(cor-terciária), #eaeff3) solid;
             "
           >
+            <!-- Ícone SVG de dinheiro -->
             <img src="src/dinheiro_incon.svg" alt="Ícone de dinheiro" />
           </div>
+          <!-- Elemento decorativo dentro do círculo -->
           <div
             style="
               width: 15.67px;
@@ -74,6 +82,8 @@
           ></div>
         </div>
       </div>
+
+      <!-- Título principal do painel -->
       <div
         style="
           width: 206px;
@@ -94,6 +104,8 @@
       >
         Grande Volume de Investimento
       </div>
+
+      <!-- Subtítulo explicativo -->
       <div
         style="
           width: 202px;
@@ -114,6 +126,8 @@
       >
         Clientes com quantias significativas Investidas
       </div>
+
+      <!-- Círculo cinza com contador "02" -->
       <div
         style="
           width: 38px;
@@ -121,10 +135,12 @@
           left: 297px;
           top: 21px;
           position: absolute;
-          background: #c2ceda;
+          background: #c2ceda; /* Cinza médio */
           border-radius: 9999px;
         "
       ></div>
+
+      <!-- Número de clientes no contador -->
       <div
         style="
           width: 20px;
@@ -145,6 +161,8 @@
       >
         02
       </div>
+
+      <!-- Container do ícone de dropdown -->
       <div
         style="
           width: 38px;
@@ -155,6 +173,7 @@
           overflow: hidden;
         "
       >
+        <!-- Ícone do dropdown -->
         <img src="src/dropdown_icon.svg" alt="Ícone de dinheiro" />
         <div
           style="
@@ -167,6 +186,8 @@
           "
         ></div>
       </div>
+
+      <!-- Primeiro card de cliente (Jasmine) -->
       <div
         data-property-1="Variant2"
         style="
@@ -180,6 +201,7 @@
           border-radius: 6px;
         "
       >
+        <!-- Avatar do cliente com iniciais -->
         <div
           style="
             width: 65px;
@@ -187,10 +209,11 @@
             left: 18px;
             top: 16px;
             position: absolute;
-            background: #004a80;
+            background: #004a80; /* Azul institucional */
             border-radius: 32.5px;
           "
         >
+          <!-- Iniciais do cliente no avatar -->
           <div
             style="
               width: 57px;
@@ -213,6 +236,8 @@
             JM
           </div>
         </div>
+
+        <!-- Nome completo do cliente -->
         <div
           style="
             width: 192px;
@@ -233,6 +258,8 @@
         >
           Jasmine Moreira Souza
         </div>
+
+        <!-- Perfil de risco do cliente -->
         <div
           style="
             width: 186px;
@@ -253,6 +280,8 @@
         >
           Perfil: Conservador
         </div>
+
+        <!-- Perfil atual da carteira (diferente do perfil do cliente) -->
         <div
           style="
             width: 179px;
@@ -273,6 +302,8 @@
         >
           Perfil da Carteira: Arrojado
         </div>
+
+        <!-- Título para o indicador de desenquadramento -->
         <div
           style="
             width: 111px;
@@ -294,6 +325,8 @@
         >
           Porcentagem de desenquadramento
         </div>
+
+        <!-- Container para o indicador de desenquadramento -->
         <div
           style="
             width: 56px;
@@ -303,6 +336,7 @@
             position: absolute;
           "
         >
+          <!-- Fundo amarelo para o indicador (alerta médio) -->
           <div
             style="
               width: 56px;
@@ -310,10 +344,12 @@
               left: 0px;
               top: 0px;
               position: absolute;
-              background: #fff79b;
+              background: #fff79b; /* Amarelo claro */
               border-radius: 10px;
             "
           ></div>
+
+          <!-- Porcentagem de desenquadramento (15%) -->
           <div
             style="
               width: 46px;
@@ -325,7 +361,7 @@
               justify-content: center;
               display: flex;
               flex-direction: column;
-              color: #ffb800;
+              color: #ffb800; /* Amarelo escuro */
               font-size: 20px;
               font-family: Roboto Slab;
               font-weight: 700;
@@ -337,6 +373,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Segundo card de cliente (Vinicíus) -->
       <div
         data-property-1="Default"
         style="
@@ -350,6 +388,7 @@
           border-radius: 6px;
         "
       >
+        <!-- Avatar do cliente com iniciais -->
         <div
           style="
             width: 65px;
@@ -357,10 +396,11 @@
             left: 18px;
             top: 16px;
             position: absolute;
-            background: #004a80;
+            background: #004a80; /* Azul institucional */
             border-radius: 32.5px;
           "
         >
+          <!-- Iniciais do cliente no avatar -->
           <div
             style="
               width: 57px;
@@ -383,6 +423,8 @@
             VJ
           </div>
         </div>
+
+        <!-- Nome completo do cliente -->
         <div
           style="
             width: 192px;
@@ -403,6 +445,8 @@
         >
           Vinicíus Junior da Silva
         </div>
+
+        <!-- Perfil de risco do cliente -->
         <div
           style="
             width: 186px;
@@ -423,6 +467,8 @@
         >
           Perfil: Conservador
         </div>
+
+        <!-- Perfil atual da carteira (igual ao perfil do cliente) -->
         <div
           style="
             width: 179px;
@@ -443,6 +489,8 @@
         >
           Conservador
         </div>
+
+        <!-- Título para o indicador de desenquadramento -->
         <div
           style="
             width: 111px;
@@ -464,6 +512,8 @@
         >
           Porcentagem de desenquadramento
         </div>
+
+        <!-- Container para o indicador de desenquadramento -->
         <div
           style="
             width: 56px;
@@ -473,6 +523,7 @@
             position: absolute;
           "
         >
+          <!-- Fundo vermelho para o indicador (alerta alto) -->
           <div
             style="
               width: 56px;
@@ -480,10 +531,12 @@
               left: 0px;
               top: 0px;
               position: absolute;
-              background: #ffd2d7;
+              background: #ffd2d7; /* Vermelho claro */
               border-radius: 10px;
             "
           ></div>
+
+          <!-- Porcentagem de desenquadramento (40%) -->
           <div
             style="
               width: 46px;
@@ -495,7 +548,7 @@
               justify-content: center;
               display: flex;
               flex-direction: column;
-              color: #c32032;
+              color: #c32032; /* Vermelho escuro */
               font-size: 20px;
               font-family: Roboto Slab;
               font-weight: 700;
